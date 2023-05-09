@@ -1,0 +1,29 @@
+{
+  "name": "automation",
+  "type": "module",
+  "version": "1.0.1",
+  "description": "Storystream automation test1",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run ./config/wdio.conf.ts",
+    "test:report": "npm-run-all -s -c test report:generate report:read",
+    "test:generate": "allure generate --clean ./reports/allure-results/ -o ./reports/allure-report",
+    "test:allure": "allure generate reports/allure-results -c && allure open"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@wdio/allure-reporter": "^8.3.0",
+    "@wdio/cli": "^8.2.0",
+    "@wdio/cucumber-framework": "^8.2.0",
+    "@wdio/local-runner": "^8.2.0",
+    "@wdio/selenium-standalone-service": "^8.3.2",
+    "@wdio/spec-reporter": "^8.1.2",
+    "chromedriver": "^112.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4",
+    "wdio-chromedriver-service": "^8.0.1"
+  },
+  "dependencies": {
+    "allure-commandline": "^2.20.1"
+  }
+}
