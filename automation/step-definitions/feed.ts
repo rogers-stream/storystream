@@ -2,6 +2,9 @@ import { Given, When, Then } from "@wdio/cucumber-framework";
 import { FeedPage } from "../pages/feedPage.ts";
 import { enterValue, click } from "../utils/inputUtils.ts";
 
+When("The user clicks on a story", async () => {
+    await click(await FeedPage.getStoryButton());
+});
 When("The user navigates to the Content section", async () => {
     await click(await FeedPage.getContentButton());
 });
@@ -25,4 +28,10 @@ When("The User selects the Instagram Tagged Feeds link", async () =>{
 });
 When("The User selects the Instagram User Feeds link", async () =>{
     await click(await FeedPage.getInstagramUserFeedLink());
+});
+When("The User navigates to the Burger menu", async () =>{
+    await click(await FeedPage.getBurgerMenu());
+});
+When("Clicks on the Logout button to end their session", async () =>{
+    await click(await FeedPage.getLogoutButton());
 });

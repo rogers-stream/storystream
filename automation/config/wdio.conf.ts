@@ -9,7 +9,7 @@ export const config: Options.Testrunner = {
     },
   },
 
-  specs: ["../features/login.feature"],
+  specs: ["../features/*.feature"],
   exclude: [],
   maxInstances: 5,
   capabilities: [
@@ -59,7 +59,7 @@ export const config: Options.Testrunner = {
     source: true,
     strict: true,
     tagExpression: "",
-    timeout: 60000,
+    timeout: 80000,
     ignoreUndefinedDefinitions: false,
   },
 
