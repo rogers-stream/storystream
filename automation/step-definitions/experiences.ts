@@ -14,3 +14,9 @@ When("The use selects Live Video from the Story Board list", async () =>{
 When("The user clicks on Add Video to be redirected to the Add Live Video Page", async () =>{
     await click(await ExperiencesPage.getAddLiveVideoButton());
 });
+When("The User navigates to the Experiences Burger menu", async () =>{
+    await click(await ExperiencesPage.getExpBurgerMenu());
+});
+When("Clicks on the Experiences Logout button to end their session", async () =>{
+    await click(await ExperiencesPage.getExpLogoutButton());
+});
