@@ -1,4 +1,4 @@
-Feature: To ensure that an Admin can create Facebook feed content
+Feature: To ensure that an Admin can create feed content
 
 Scenario: Admin creates Feeds via Facebook
 Given The user is on the Storystream Admin Login Page

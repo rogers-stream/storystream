@@ -9,7 +9,7 @@ export const config: Options.Testrunner = {
     },
   },
 
-  specs: ["../features/feed.feature"],
+  specs: ["../features/vue.feature"],
   exclude: [],
   maxInstances: 5,
   capabilities: [

@@ -1,6 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed May 24 13:46:37 BST 2023","Wed May 24 13:47:38 BST 2023","60989","","To ensure that an Admin can create Facebook feed content","","","","Admin creates Feeds via Instagram Tagged",""
-"passed","Wed May 24 13:45:52 BST 2023","Wed May 24 13:46:37 BST 2023","45639","","To ensure that an Admin can create Facebook feed content","","","","Admin creates Feeds via Instagram Mention",""
-"passed","Wed May 24 13:44:11 BST 2023","Wed May 24 13:45:09 BST 2023","57595","","To ensure that an Admin can create Facebook feed content","","","","Admin creates Feeds via Facebook",""
-"passed","Wed May 24 13:45:09 BST 2023","Wed May 24 13:45:52 BST 2023","42602","","To ensure that an Admin can create Facebook feed content","","","","Admin creates Feeds via Instagram Hastag",""
-"broken","Wed May 24 13:47:38 BST 2023","Wed May 24 13:48:44 BST 2023","65871","","To ensure that an Admin can create Facebook feed content","","","","Admin creates Feeds via Instagram User",""
+"broken","Fri Jun 09 16:18:32 BST 2023","Fri Jun 09 16:19:24 BST 2023","52664","","Validating the new Vue Content section","","","","Admin logs in",""

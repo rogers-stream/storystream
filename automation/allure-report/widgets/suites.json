@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"6f092a430b872e249b7c268047b927fa","name":"To ensure that an Admin can create Facebook feed content","statistic":{"failed":0,"broken":1,"skipped":0,"passed":4,"unknown":0,"total":5}}]}
+{"total":1,"items":[{"uid":"75a9f97edb1cf6e8613cc6fdf6125b1f","name":"Validating the new Vue Content section","statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1}}]}
