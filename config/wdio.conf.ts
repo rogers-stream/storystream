@@ -9,7 +9,7 @@ export const config: Options.Testrunner = {
     },
   },
 
-  specs: ["../features/vue.feature"],
+  specs: ["../features/storyboardbuilder.feature"],
   exclude: [],
   maxInstances: 5,
   capabilities: [
